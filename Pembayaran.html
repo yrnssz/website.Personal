@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolaraga - Login</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-section">
+            <img src="logo.png" alt="Logo Bolaraga" class="logo">
+            <h1>Bolaraga</h1>
+        </div>
+        <div class="login-section">
+            <h2>Pembayaran</h2>
+            <form action="#" method="post">
+                <h2>Nama</h2>
+                <input type="text" placeholder="Nama" class="input-field" required>
+                <h2>Nomor Telepon</h2>
+                <input type="text" placeholder="Nomor Telepon" class="input-field" required>
+                <h2>Pemesanan</h2>
+                <label for="time">Pilih Waktu:</label>
+                <input type="time" id="time" name="time">                
+                <h2>Tagihan</h2>
+                <input type="text" placeholder="Tagihan" class="input-field" required>
+            </form>
+            <div class="links">
+            </div>
+            <div class="payment-methods">
+                <h3>Metode Pembayaran</h3>
+                <label>
+                    <input type="checkbox" name="payment" value="credit-card">
+                    Kartu Kredit
+                </label>
+                <label>
+                    <input type="checkbox" name="payment" value="bank-transfer">
+                    Transfer Bank
+                </label>
+                <label>
+                    <input type="checkbox" name="payment" value="e-wallet">
+                    E-Wallet
+                </label>
+            </div>            
+                <ul>
+                  <li>
+                    <button type="submit" class="login-button">Selesaikan Pembayaran</button>
+                  </li>
+                </ul>
+              </div>             
+        </div>
+    </div>
+</body>
